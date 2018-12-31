@@ -1,0 +1,17 @@
+a.btn-default,a.btn.btn.default,a.button,#edit-actions input {
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: #477895;
+  // background: #0c203b;
+  border: 2px solid #f5f5f5;
+  -webkit-box-shadow: 0 0 3px grey;
+  box-shadow: 0 0 3px grey;
+
+  &:hover {
+    background: #0f1d30;
+  }
+}

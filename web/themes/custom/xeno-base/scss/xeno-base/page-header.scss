@@ -1,0 +1,67 @@
+/**
+* Page header 
+*/
+
+.page-header {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  min-height: 400px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(71, 120, 149, 0.5),rgba(71, 120, 149, 0.6));
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+
+    @media (max-width: 768px){
+      font-size: 1.8rem;
+    }
+
+    letter-spacing: 0.04em;
+    margin: 0;
+    //text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+
+    padding-bottom: 30px;
+  
+    &:after {
+      border-bottom: 6px solid #b7b600;
+      content: " ";
+      display: block;
+      
+      -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+      -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+      box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+
+      width: 120px;
+      max-width: 240px;
+
+      height: 6px;
+
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 60px);
+    }
+
+  }
+}
+

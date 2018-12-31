@@ -1,0 +1,26 @@
+core: 8.x
+type: theme
+base theme: stable
+
+name: 'Xeno Base'
+description: 'Xeno Base Theme'
+package: 'Bootstrap'
+
+libraries:
+  - 'xeno-base/global-styling'
+
+regions:
+  search: Search
+  header: Header
+  primary_menu: 'Primary menu'
+  page_top: 'Page top'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  social: 'Social'
+  copyright: 'Copyright'

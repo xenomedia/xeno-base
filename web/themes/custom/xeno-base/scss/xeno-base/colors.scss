@@ -1,0 +1,89 @@
+/**
+* paragraph colors
+*/
+
+.paragraph--color--primary {
+  background: #0d2d4d;
+}
+
+.paragraph--color--secondary {
+  background: #0f1d30;
+}
+
+.paragraph--color--success {
+  background: #405b78;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.paragraph--color--info {
+  background: #43464c;
+}
+
+.paragraph--color--warning {
+  background: #4b8b41;
+}
+
+.paragraph--color--danger {
+  background: #be4545;
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #ddd;
+  }
+}
+
+
+.paragraph--color--light-green {
+  background: #b7b600;
+}
+
+.paragraph--color--orange {
+  background: #ca7722;
+}
+
+.paragraph--color--water {
+  background: #477895;
+}
+
+.paragraph--color--cool-gray {
+  background: #797979;
+}
+
+.paragraph--color--light-gray {
+  background: #e9e9e9;
+}
+
+// white text colors... for dark bg colors
+.paragraph--color--primary,
+.paragraph--color--secondary,
+.paragraph--color--success,
+.paragraph--color--info,
+.paragraph--color--warning,
+.paragraph--color--danger,
+.paragraph--color--orange,
+.paragraph--color--water,
+.paragraph--color--cool-gray,
+.paragraph--color--light-green {
+  color: #fff;
+
+  h1,h2,h3,h4,h5,h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #ddd;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+}
+
