@@ -34,7 +34,6 @@
       "drupal/bootstrap_paragraphs": "*",
       "drupal/breakpoint": "*",
       "drupal/paragraphs": "*",
-      "drupal/xeno_hero": "*",
       "drupal/pathauto": "*",
       "drupal/focal_point": "*",
       "rvtraveller/qs-composer-installer": "^1.1",
