@@ -1,0 +1,20 @@
+uuid: 4d2dcbb2-64df-42b6-9dd6-e97b4e935016
+langcode: en
+status: true
+dependencies:
+  theme:
+    - xenominimal
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: xenominimal_local_actions
+theme: xenominimal
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

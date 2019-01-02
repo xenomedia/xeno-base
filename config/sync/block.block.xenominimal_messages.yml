@@ -1,0 +1,22 @@
+uuid: 21cd6bb8-93f2-4f31-83c8-2699610a20fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xenominimal
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: xenominimal_messages
+theme: xenominimal
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c3e009d5-dd69-4037-a52e-4a38fed161b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xeno
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: xeno_breadcrumbs
+theme: xeno
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 09f5d2c0-d07b-4d3c-a142-40a70e2925a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xenominimal
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: xenominimal_content
+theme: xenominimal
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

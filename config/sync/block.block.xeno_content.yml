@@ -1,0 +1,22 @@
+uuid: 7682eb98-d6f0-489a-b080-1053a3ce8492
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xeno
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: xeno_content
+theme: xeno
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

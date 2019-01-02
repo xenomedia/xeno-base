@@ -1,0 +1,14 @@
+uuid: 538d7536-e028-423b-8f6d-ff90eb3577f9
+name: 'Earth Safe'
+mail: drupalsites+earthsafe@xenomedia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,22 @@
+uuid: 2f8aca9d-b099-430a-bde8-894d95bd8c60
+langcode: en
+status: true
+dependencies:
+  theme:
+    - xenominimal
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: xenominimal_local_tasks
+theme: xenominimal
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

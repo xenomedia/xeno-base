@@ -1,0 +1,23 @@
+uuid: d6f8edae-d46c-4540-8f27-791e00f7e45b
+langcode: en
+status: true
+dependencies: {  }
+id: ignore
+label: ignore
+description: ''
+folder: ''
+module: {  }
+theme: {  }
+blacklist:
+  - tour.tour.languageedit
+  - system.menu.devel
+  - 'search_api_solr_devel.*'
+  - 'devel.*'
+  - reroute_email.settings
+  - stage_file_proxy.settings
+graylist:
+  - 'webform.webform.*'
+  - 'dashboard_connector.*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

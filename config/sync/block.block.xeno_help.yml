@@ -1,0 +1,22 @@
+uuid: 22e50860-1528-49a9-bc24-60c1a1af3fab
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - xeno
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: xeno_help
+theme: xeno
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 28d58f76-4aab-43f6-8804-b5972a25aaf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - xenominimal
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: xenominimal_help
+theme: xenominimal
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
