@@ -6,9 +6,9 @@ pantheon:
   site_name:
   env: live
 stage:
-  site_name: sgf
+  site_name: xeno-name
   user: git
-  host: ww5.xenostaging.com
+  host: 165.227.203.91
   port: 2222
   backup_location: /var/livedb
 database:
