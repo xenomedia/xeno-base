@@ -1,3 +1,4 @@
+uuid: 7cbc0c90-63b8-47d2-a298-c7cf8ec72955
 langcode: en
 status: true
 dependencies:
@@ -19,3 +20,5 @@ content:
     region: content
 hidden:
   field_content: true
+  field_featured_image: true
+  field_teaser: true
