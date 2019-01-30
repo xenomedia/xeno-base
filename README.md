@@ -16,6 +16,26 @@ $ git add -A .
 $ git commit -m "web and vendor directory from composer install"
 $ git remote add origin ssh://ID@ID.drush.in:2222/~/repository.git
 $ git push --force origin master
+
+update robo.yml.dist and the env file with your new environment’s name.
+Run robo setup
+
+Run the Drupal site setup
+
+Run drush config-get "system.site" uuid
+
+Update  config/system.site.yml with your website’s uuid, sitename and email address.
+
+Run drush cim-y
+
+Export your database from adminer.xeno-base.test
+
+Upload your database to the livedb folder on xenostaging.
+
+Update the jenkins file with your website information.   Search for SITENAME and replace with the correct site name.
+
+If you make any changes, run drush cex-y
+
 ```
 * The `--team` flag is optional and refers to a Pantheon organization. Pantheon organizations are often web development agencies or Universities. Setting this parameter causes the newly created site to go within the given organization. Run the Terminus command `terminus org:list` to see the organizations you are a member of. There might not be any.
 
